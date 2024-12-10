@@ -1,32 +1,20 @@
-button {
-    all: unset;
-    user-select: none;
+.input {
 
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
+    background-color: white;
+    border: 1px solid rgb(170, 170, 170);
+    width:50vw;
+    height: 35px;
+    border-radius: 10px;
+    padding: 5px;
+    text-indent: 10px;
 
-    background-color: #2f9acc;
-    color: white;
-    
-    transition: 0.1s;
-}
-button:hover {
-    opacity: 0.8;
-    cursor: pointer;
-}
-button:active {
-    filter: brightness(0.8)
+    transition: transform .1s;
 }
 
-.red {
-    background-color: #cc2f2f;
+.input:focus-visible {
+    outline: none;
 }
 
-.img {
-    padding:0;
-}
-.img:active {
-    filter:unset;
-    opacity:0.5;
+.input:focus {
+    border: 1px solid rgb(51, 51, 51);
 }
