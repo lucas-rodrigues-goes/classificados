@@ -4,7 +4,11 @@ function SearchBar() {
 
     return (
         <>
-        <input>
+        <input 
+            className={styles.input}
+            placeholder="Pesquisar anuncios..."
+        >
+
         </input>
         </>
     )
