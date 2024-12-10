@@ -3,8 +3,7 @@ import { config } from "dotenv";
 
 config();
 
-// const uri = `mongodb://${process.env.MONGODB_URL}:${process.env.MONGODB_PORT}/${process.env.MONGODB_DBNAME}`;
-const uri = `${process.env.MONGODB_URI}`;
+const uri = `${process.env.MONGO_URI}`;
 
 export const connectToDatabase = async () => {
   try {
